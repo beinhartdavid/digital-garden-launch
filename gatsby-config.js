@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `David's Digital Garden`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `David Beinhart`,
+      summary: `Someone getting started`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A place for me to capture thoughts.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bigkidbeinhart`,
     },
   },
   plugins: [
