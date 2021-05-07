@@ -1,10 +1,10 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Cutting Board
+date: "2020-09-01T22:12:03.284Z"
+description: "Cutting Board"
 ---
 
-This is my first post on my new fake blog! How exciting!
+My first wood working project! 
 
 I'm sure I'll write a lot more interesting things in the future.
 
