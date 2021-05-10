@@ -2,6 +2,9 @@
 title: Welcome to the Jungle 
 date: "2021-05-06T22:12:03.284Z"
 description: "(I don't even like that song)"
+mainTopic: true
+rank: "1" 
+published: true 
 ---
 
 Welcome to my "Digital Garden." It's a concept I've been thinking about for a while, but have yet to put into practice. I first heard about it on Twitter from [@jhooks](https://twitter.com/jhooks) and you can learn more about his approach [here](https://joelhooks.com/digital-garden). Or from this [MIT Technology Review](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/) article on digital gardens. 

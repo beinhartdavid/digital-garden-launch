@@ -65,6 +65,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
+
 export const pageQuery = graphql`
   query {
     site {
@@ -72,7 +73,24 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      
+      sort: { fields: [frontmatter___rank], order: ASC }
+      filter: {
+        frontmatter: { 
+        mainTopic: {
+          eq: true 
+        }, 
+        published: {
+          eq: true
+        }
+      }
+    
+    }
+      
+      
+      
+      ) {
       nodes {
         excerpt
         fields {
@@ -87,3 +105,30 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+
+/*
+xport const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+        }
+      }
+    }
+  }
+`
+*/
