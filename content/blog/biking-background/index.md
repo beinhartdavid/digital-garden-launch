@@ -4,7 +4,7 @@ date: "2019-08-04T22:12:03.284Z"
 description: An intro to my on again off again passion  
 mainTopic: true
 rank: "3"
-published: true
+published: false
 type: "blog"
 ---
 I first learned to ride a bike at 2 years old. While never documented on VHS, I tore past my terrible twos without training wheels. I'd ride fast, go hard and crash often. Which helps to explain why I was able to learn so quickly.
