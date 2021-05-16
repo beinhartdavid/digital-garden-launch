@@ -4,6 +4,8 @@ date: "2021-05-07T22:12:03.284Z"
 description: If it's stupid but helps people, then it's not stupid   
 mainTopic: true 
 published: true 
+rank: "4"
+type : "blog"
 ---
 
 ### Intro:

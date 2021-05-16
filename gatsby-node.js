@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const woodPost = path.resolve(`./src/templates/wood.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -20,6 +21,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id
             fields {
               slug
+            }
+            frontmatter{
+              title 
+              type
             }
           }
         }
@@ -45,7 +50,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-
+      if (post.frontmatter.type === 'woodworking') {
+      createPage({
+        path: post.fields.slug,
+        component: woodPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      })
+    }else{
       createPage({
         path: post.fields.slug,
         component: blogPost,
@@ -55,9 +70,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           nextPostId,
         },
       })
+
+    }
     })
   }
 }
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -88,27 +106,22 @@ exports.createSchemaCustomization = ({ actions }) => {
       siteUrl: String
       social: Social
     }
-
     type Author {
       name: String
       summary: String
     }
-
     type Social {
       twitter: String
     }
-
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
       fields: Fields
     }
-
     type Frontmatter {
       title: String
       description: String
       date: Date @dateformat
     }
-
     type Fields {
       slug: String
     }
