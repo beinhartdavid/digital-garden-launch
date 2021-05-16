@@ -3,6 +3,7 @@ title: Biking Community
 date: "2021-05-07T22:12:03.284Z"
 description: PLACEHOLDER 
 published: false 
+type: "blog"
 ---
 
 - ### Riding with others 

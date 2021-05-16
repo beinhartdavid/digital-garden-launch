@@ -20,6 +20,17 @@ module.exports = {
         name: `blog`,
       },
     },
+
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+         path: `${__dirname}/content/woodworking-projects`,
+          name: `w`,
+      },
+  },
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
