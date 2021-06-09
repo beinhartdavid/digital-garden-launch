@@ -25,10 +25,19 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-         path: `${__dirname}/content/woodworking-projects`,
+         path: `${__dirname}/content/woodworking`,
           name: `w`,
       },
   },
+
+
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+       path: `${__dirname}/content/woodworking-projects`,
+        name: `w`,
+    },
+},
 
 
     {
