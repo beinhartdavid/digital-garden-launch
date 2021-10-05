@@ -8,7 +8,7 @@ rank: "4"
 type: "blog"
 ---
 
-I quietly launched the David Beinhart Foundation to Change the World, for the Better of Course in August, at least unofficially. At the heart of it, I've wanted to start loaning money through [Kiva](www.kiva.org) and so without any further effort setting up a phoney 501c3 (I still might) started making loans. See my early post here outlining this if none of this makes sense (it still might not). 
+I quietly launched the David Beinhart Foundation to Change the World, for the Better of Course in August, at least unofficially. At the heart of it, I've wanted to start loaning money through [Kiva](www.kiva.org) and so without any further effort setting up a phoney 501c3 (I still might) started making loans. See my [early post here](https://www.davidbeinhart.com/foundation/) outlining this if none of this makes sense (it still might not). 
 
 At the time of writing, I've loaned $1,050 across 17 countries with an additional $56 being donated to Kiva to help with transaction fees and administration of these loans. 
 
