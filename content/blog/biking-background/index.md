@@ -4,7 +4,7 @@ date: "2019-08-04T22:12:03.284Z"
 description: An intro to my on again off again passion  
 mainTopic: true
 rank: "3"
-published: false
+published: true
 type: "blog"
 ---
 I first learned to ride a bike at 2 years old. While never documented on VHS, I tore past my terrible twos without training wheels. I'd ride fast, go hard and crash often. Which helps to explain why I was able to learn so quickly.
@@ -25,5 +25,6 @@ Of course these memories are fueled more by what my family has told me than anyt
 I did get back into biking though. And since August of 2019, have rode hundreds of miles more than I ever have (and crashed landed into far less mulch piles) As I continue to bike I see myself focusing on the following aspects of biking:
 - [Exercise](http://localhost:8000/biking-biker/)
 - [Repair/Hobby Tinkering](http://localhost:8000/biking-builder/)
-- [Community Forming]() 
+- [Community]() 
+
 

@@ -1,11 +1,12 @@
 ---
 title: Shelves
 date: "2021-05-07T22:12:03.284Z"
-description: If I've built it, it's listed here   
+description: It's Puzzling these people put up with me   
 mainTopic: false
-published: false 
+published: false
 rank: "4"
 type: "woodworking"
+featured: ./imgs/featured.jpeg
 ---
 
-I'm thinking this could be for Aunt Karen's Uncle Lou's and Lisa's Puzzle Shelf 
+![Look at this functional classroom addition](./imgs/featured.jpeg)

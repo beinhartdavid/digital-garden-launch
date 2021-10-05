@@ -6,4 +6,5 @@ mainTopic: false
 published: false 
 rank: "4"
 type: "woodworking"
+featured: ../../../src/images/stock.jpeg
 ---

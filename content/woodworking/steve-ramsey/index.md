@@ -3,7 +3,7 @@ title: Steve Ramsey Projects
 date: "2021-05-07T22:12:03.284Z"
 description: Learning from the master  
 mainTopic: false 
-published: true
+published: false
 type: "woodworking"
 ---
 ## Intro 
