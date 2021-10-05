@@ -13,7 +13,7 @@ const WW = () => {
   return (
     <div className="ww">
       
-      <h2><a href = "http://localhost:8000/woodworking-showcase"> List of Woodworking Projects </a> </h2>
+      <h2><a href = "https://www.davidbeinhart.com/woodworking-showcase"> List of Woodworking Projects </a> </h2>
      
       
     </div>
