@@ -15,3 +15,9 @@ description: Where I plan on keeping track of what I've done to build the site a
 2. Previously I've use GitHub Pages but have had difficulties with custom domain 
 3. Pointed to my custom domain, davidbeinhart.com 
 4. Edited some of the default info like site name and picture, thanks Mathew for the starter files! 
+
+
+1. Figured out how to update node 
+2. used this tutorial for adding image thumb nails 
+https://ibaslogic.com/working-with-gatsby-images/
+
