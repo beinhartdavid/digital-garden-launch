@@ -6,18 +6,27 @@
  */
 
 import * as React from "react"
+import { Link, graphql } from "gatsby"
+
 
 const WW = () => {
   
 
   return (
-    <div className="ww">
-      
-      <h2><a href = "https://www.davidbeinhart.com/woodworking-showcase"> List of Woodworking Projects </a> </h2>
-     
-      
-    </div>
+    
+    <article
+    className="post-list-item"
+                itemScope
+                itemType="http://schema.org/Article"
+    >
+      <h2>
+      <Link to="/woodworking-showcase"> Woodworking Projects</Link>           
+                    
+      </h2>
+      </article>
+    
   )
 }
+
 
 export default WW

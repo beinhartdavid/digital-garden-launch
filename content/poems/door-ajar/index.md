@@ -17,7 +17,7 @@ Door Ajar
 7) who would allow their artificially 
 8) made respite to so easily escape 
 9) into the dark blistering heat of a 
-10) summer's night? No to mention prowling thieves. 
+10) summer's night? Not to mention prowling thieves. 
 
 
 Could be a fun series, discuss minor inconveniences in great detail with a reoccuring piunchline of the obvious danger, perhaps the same thing, prowling thieves. 

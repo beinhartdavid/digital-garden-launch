@@ -49,7 +49,7 @@ desire for violence, lust of copulation, fear of shame and pride in hustle.
 
 Timeless seasons
 suspended pages at a time
-By the liked of 
+By the likes of 
 Larry McMurty, Elwood Reid and Buzz Bissinger 
 
 As they describe small towns 

@@ -1,7 +1,7 @@
 ---
 title: Biking
 date: "2019-08-04T22:12:03.284Z"
-description: An intro to my on again off again passion  
+description: No matter how much time passes it's always like... 
 mainTopic: true
 rank: "3"
 published: true

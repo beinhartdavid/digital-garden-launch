@@ -3,7 +3,7 @@ module.exports = {
     title: `David's Digital Garden`,
     author: {
       name: `David Beinhart`,
-      summary: `Someone terrified of starting a website.`,
+      summary: `Things might get weird.`,
     },
     description: `A place for me to capture thoughts.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
