@@ -9,4 +9,3 @@ featured: "../../../src/images/stock.jpeg"
 
 ---
 
-YES YES YES YES

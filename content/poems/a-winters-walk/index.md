@@ -29,7 +29,7 @@ Along his trek,
 balance had to be found. 
 
 If he was overly cautious 
-ior his tongue too slow, 
+or his tongue too slow, 
 the melted ice-cream would seep
 into the thin napkin 
 
